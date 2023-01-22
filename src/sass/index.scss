@@ -1,2 +1,13 @@
-@import './common';
-@import './example';
+.gallery {
+  max-width: 1600px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+img {
+  width: 250px;
+}
+
+.photo-card {
+  height: 400px;
+}
